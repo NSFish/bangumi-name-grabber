@@ -1,2 +1,9 @@
 # bangumi-name-grabber
-Grap bangumi names from sources like wikipedia.
+
+## 支持网站
+
+- [x] 百度百科
+- [ ] 百度百科（表格形式）
+- [ ] 维基百科
+- [ ] 萌娘百科
+- [ ] B 站

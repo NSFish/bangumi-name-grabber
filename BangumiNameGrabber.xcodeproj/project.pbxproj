@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709E8383244D7B5F00DE8DA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E8382244D7B5F00DE8DA6 /* main.swift */; };
+		709E838A244D8BC000DE8DA6 /* BangumiNameGrabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E8389244D8BC000DE8DA6 /* BangumiNameGrabber.swift */; };
+		C78909A5627037AFB987A538 /* libPods-BangumiNameGrabber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8CDDDB42222221A196D701 /* libPods-BangumiNameGrabber.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		709E837D244D7B5F00DE8DA6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		024116F2047DB029BEC344DD /* Pods-BangumiNameGrabber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangumiNameGrabber.release.xcconfig"; path = "Target Support Files/Pods-BangumiNameGrabber/Pods-BangumiNameGrabber.release.xcconfig"; sourceTree = "<group>"; };
+		6A8CDDDB42222221A196D701 /* libPods-BangumiNameGrabber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BangumiNameGrabber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709E837F244D7B5F00DE8DA6 /* bangumi-name-grabber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bangumi-name-grabber"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709E8382244D7B5F00DE8DA6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		709E8389244D8BC000DE8DA6 /* BangumiNameGrabber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangumiNameGrabber.swift; sourceTree = "<group>"; };
+		71BF013EAFB6B114C8698EC6 /* Pods-BangumiNameGrabber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangumiNameGrabber.debug.xcconfig"; path = "Target Support Files/Pods-BangumiNameGrabber/Pods-BangumiNameGrabber.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709E837C244D7B5F00DE8DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78909A5627037AFB987A538 /* libPods-BangumiNameGrabber.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B3E1100E035A9DC999D729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A8CDDDB42222221A196D701 /* libPods-BangumiNameGrabber.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709E8376244D7B5F00DE8DA6 = {
+			isa = PBXGroup;
+			children = (
+				709E8381244D7B5F00DE8DA6 /* BangumiNameGrabber */,
+				709E8380244D7B5F00DE8DA6 /* Products */,
+				CBE005AF27AEFE794AABD836 /* Pods */,
+				00B3E1100E035A9DC999D729 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		709E8380244D7B5F00DE8DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709E837F244D7B5F00DE8DA6 /* bangumi-name-grabber */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709E8381244D7B5F00DE8DA6 /* BangumiNameGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				709E8382244D7B5F00DE8DA6 /* main.swift */,
+				709E8389244D8BC000DE8DA6 /* BangumiNameGrabber.swift */,
+			);
+			path = BangumiNameGrabber;
+			sourceTree = "<group>";
+		};
+		CBE005AF27AEFE794AABD836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71BF013EAFB6B114C8698EC6 /* Pods-BangumiNameGrabber.debug.xcconfig */,
+				024116F2047DB029BEC344DD /* Pods-BangumiNameGrabber.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709E837E244D7B5F00DE8DA6 /* BangumiNameGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709E8386244D7B5F00DE8DA6 /* Build configuration list for PBXNativeTarget "BangumiNameGrabber" */;
+			buildPhases = (
+				F0A09E1AA5E0E99EFDCD30AF /* [CP] Check Pods Manifest.lock */,
+				709E837B244D7B5F00DE8DA6 /* Sources */,
+				709E837C244D7B5F00DE8DA6 /* Frameworks */,
+				709E837D244D7B5F00DE8DA6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BangumiNameGrabber;
+			productName = BangumiNameGrabber;
+			productReference = 709E837F244D7B5F00DE8DA6 /* bangumi-name-grabber */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709E8377244D7B5F00DE8DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = nsfish;
+				TargetAttributes = {
+					709E837E244D7B5F00DE8DA6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 709E837A244D7B5F00DE8DA6 /* Build configuration list for PBXProject "BangumiNameGrabber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709E8376244D7B5F00DE8DA6;
+			productRefGroup = 709E8380244D7B5F00DE8DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709E837E244D7B5F00DE8DA6 /* BangumiNameGrabber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0A09E1AA5E0E99EFDCD30AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BangumiNameGrabber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709E837B244D7B5F00DE8DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709E838A244D8BC000DE8DA6 /* BangumiNameGrabber.swift in Sources */,
+				709E8383244D7B5F00DE8DA6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		709E8384244D7B5F00DE8DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		709E8385244D7B5F00DE8DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		709E8387244D7B5F00DE8DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BF013EAFB6B114C8698EC6 /* Pods-BangumiNameGrabber.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "bangumi-name-grabber";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		709E8388244D7B5F00DE8DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024116F2047DB029BEC344DD /* Pods-BangumiNameGrabber.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "bangumi-name-grabber";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709E837A244D7B5F00DE8DA6 /* Build configuration list for PBXProject "BangumiNameGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709E8384244D7B5F00DE8DA6 /* Debug */,
+				709E8385244D7B5F00DE8DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709E8386244D7B5F00DE8DA6 /* Build configuration list for PBXNativeTarget "BangumiNameGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709E8387244D7B5F00DE8DA6 /* Debug */,
+				709E8388244D7B5F00DE8DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709E8377244D7B5F00DE8DA6 /* Project object */;
+}
